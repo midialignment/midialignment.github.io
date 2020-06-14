@@ -1,0 +1,94 @@
+body {
+    font-family: 'Arial',YuGothic,'Yu Gothic','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3','メイリオ', Meiryo,'ＭＳ ゴシック',sans-serif;
+    font-size:10pt;
+}
+
+#labelForFilein1 {
+    background-color: rgba(20,20,20,0.1);
+    border-radius: 5px;
+}
+
+#labelForFilein1:hover {
+    background-color: rgba(20,20,20,1);
+    color: white;
+}
+
+#labelForFilein1:active {
+    background-color: rgba(20,20,150,1);
+    color: white;
+}
+
+#dropzone {
+    position: absolute;
+    top: 5px;
+    height: 70px;
+    width: 320px;
+    padding: 5px;
+    background-color: rgba(20,20,20,0.1);
+    border: solid 3px rgba(20,20,20,0.3);
+    color: rgba(20,20,20,0.7);
+    text-align: center;
+    line-height: 70px;
+}
+
+#dropzone.dropover {
+    background-color: rgba(20,20,20,1);
+    color: white;
+}
+
+#dropzone1 {
+    position: absolute;
+    height: 20px;
+    width: 300px;
+    padding: 12px;
+    background-color: rgba(20,20,20,0.1);
+    border: solid 3px rgba(20,20,20,0.3);
+    color: rgba(20,20,20,0.7);
+}
+
+#dropzone1.dropover {
+    background-color: rgba(20,20,20,1);
+    color: white;
+}
+
+#labelForFilein2 {
+    background-color: rgba(20,20,20,0.1);
+    border-radius: 5px;
+}
+
+#labelForFilein2:hover {
+    background-color: rgba(20,20,20,1);
+    color: white;
+}
+
+#labelForFilein2:active {
+    background-color: rgba(20,20,150,1);
+    color: white;
+}
+
+#dropzone2 {
+    position:absolute;
+    height: 20px;
+    width: 300px;
+    padding: 12px;
+    background-color: rgba(20,20,20,0.1);
+    border: solid 3px rgba(20,20,20,0.3);
+    color: rgba(20,20,20,0.7);
+}
+
+#dropzone2.dropover {
+    background-color: rgba(20,20,20,1);
+    color: white;
+}
+
+button {
+    width: auto;
+    padding:0;
+    margin:0;
+    background:none;
+    border:0;
+    font-size:0;
+    line-height:0;
+    overflow:visible;
+    cursor:pointer;
+}
